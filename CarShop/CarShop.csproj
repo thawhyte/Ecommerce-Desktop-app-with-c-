@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{844FC65F-6EF9-4AE2-980B-3A5FBF1ECD9E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CarShop</RootNamespace>
+    <AssemblyName>CarShop</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\crown\OneDrive\Desktop\My Apps\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>7EE315F0AE7D7D609F90C90D3CEF708AAC940EE0</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>CarShop_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\..\..\Downloads\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Logged\Class1.cs" />
+    <Compile Include="CollectionLP2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CollectionLP2.Designer.cs">
+      <DependentUpon>CollectionLP2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Logged\Cart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Logged\Cart.Designer.cs">
+      <DependentUpon>Cart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Logged\CollectionLP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Logged\CollectionLP.Designer.cs">
+      <DependentUpon>CollectionLP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Logged\CreateAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Logged\CreateAccount.Designer.cs">
+      <DependentUpon>CreateAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Logged\MainHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Logged\MainHome.Designer.cs">
+      <DependentUpon>MainHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NL\c1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NL\c1.Designer.cs">
+      <DependentUpon>c1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NL\c2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NL\c2.Designer.cs">
+      <DependentUpon>c2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NL\c3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NL\c3.Designer.cs">
+      <DependentUpon>c3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NL\c4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NL\c4.Designer.cs">
+      <DependentUpon>c4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NL\c5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NL\c5.Designer.cs">
+      <DependentUpon>c5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NL\c6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NL\c6.Designer.cs">
+      <DependentUpon>c6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NL\collectionmore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NL\collectionmore.Designer.cs">
+      <DependentUpon>collectionmore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NL\CollectionsNL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NL\CollectionsNL.Designer.cs">
+      <DependentUpon>CollectionsNL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NL\HomepageNL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NL\HomepageNL.Designer.cs">
+      <DependentUpon>HomepageNL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NL\LoginPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NL\LoginPage.Designer.cs">
+      <DependentUpon>LoginPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Logged\Payment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Logged\Payment.Designer.cs">
+      <DependentUpon>Payment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="NL\videoVixen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NL\videoVixen.Designer.cs">
+      <DependentUpon>videoVixen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shop1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Shop1.Designer.cs">
+      <DependentUpon>Shop1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shop2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Shop2.Designer.cs">
+      <DependentUpon>Shop2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shop3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Shop3.Designer.cs">
+      <DependentUpon>Shop3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shop4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Shop4.Designer.cs">
+      <DependentUpon>Shop4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shop5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Shop5.Designer.cs">
+      <DependentUpon>Shop5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shop6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Shop6.Designer.cs">
+      <DependentUpon>Shop6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Success.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Success.Designer.cs">
+      <DependentUpon>Success.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CollectionLP2.resx">
+      <DependentUpon>CollectionLP2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Logged\Cart.resx">
+      <DependentUpon>Cart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Logged\CollectionLP.resx">
+      <DependentUpon>CollectionLP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Logged\CreateAccount.resx">
+      <DependentUpon>CreateAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Logged\MainHome.resx">
+      <DependentUpon>MainHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NL\c1.resx">
+      <DependentUpon>c1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NL\c2.resx">
+      <DependentUpon>c2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NL\c3.resx">
+      <DependentUpon>c3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NL\c4.resx">
+      <DependentUpon>c4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NL\c5.resx">
+      <DependentUpon>c5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NL\c6.resx">
+      <DependentUpon>c6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NL\collectionmore.resx">
+      <DependentUpon>collectionmore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NL\CollectionsNL.resx">
+      <DependentUpon>CollectionsNL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NL\HomepageNL.resx">
+      <DependentUpon>HomepageNL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NL\LoginPage.resx">
+      <DependentUpon>LoginPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Logged\Payment.resx">
+      <DependentUpon>Payment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NL\videoVixen.resx">
+      <DependentUpon>videoVixen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shop1.resx">
+      <DependentUpon>Shop1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shop2.resx">
+      <DependentUpon>Shop2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shop3.resx">
+      <DependentUpon>Shop3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shop4.resx">
+      <DependentUpon>Shop4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shop5.resx">
+      <DependentUpon>Shop5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shop6.resx">
+      <DependentUpon>Shop6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Success.resx">
+      <DependentUpon>Success.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="CarShop_TemporaryKey.pfx" />
+    <None Include="Properties\DataSources\Shopping_Functions.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screen Shot 2018-12-26 at 23.45.34.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarShop", "CarShop\CarShop.csproj", "{844FC65F-6EF9-4AE2-980B-3A5FBF1ECD9E}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{DAD2F961-4492-4EF0-A782-EA0BF9B1AB4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{844FC65F-6EF9-4AE2-980B-3A5FBF1ECD9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{844FC65F-6EF9-4AE2-980B-3A5FBF1ECD9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{844FC65F-6EF9-4AE2-980B-3A5FBF1ECD9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{844FC65F-6EF9-4AE2-980B-3A5FBF1ECD9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAD2F961-4492-4EF0-A782-EA0BF9B1AB4D}.Debug|Any CPU.ActiveCfg = Debug
+		{DAD2F961-4492-4EF0-A782-EA0BF9B1AB4D}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80D81FA0-2D27-45D0-98B9-599B084DE7B5}
+	EndGlobalSection
+EndGlobal
